@@ -1,5 +1,3 @@
-import Imagen1 from './images/imagen1.png'
-import Imagen2 from '@/app/images/imagen2.png'
 import Imagen3 from '@/app/images/imagen3.png'
 import Marquee from "react-fast-marquee"
 import Image from "next/image"
