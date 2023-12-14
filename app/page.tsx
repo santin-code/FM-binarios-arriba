@@ -7,30 +7,7 @@ export default function Home() {
     <>
   <Marquee>
   
-     <Image src={Imagen3}
-    width={320}
-    height={45}
-    alt="image3"/>
-     <Image src={Imagen3}
-    width={320}
-    height={45}
-    alt="image3"/>
-         <Image src={Imagen3}
-    width={320}
-    height={45}
-    alt="image3"/>
-     <Image src={Imagen3}
-    width={320}
-    height={45}
-    alt="image3"/>
-         <Image src={Imagen3}
-    width={320}
-    height={45}
-    alt="image3"/>
-     <Image src={Imagen3}
-    width={320}
-    height={45}
-    alt="image3"/>
+<h1>nelll</h1>
   </Marquee>
   
   
