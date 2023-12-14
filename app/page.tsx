@@ -8,31 +8,33 @@ export default function Home() {
   return (
     <>
   <Marquee>
-    <Image src={Imagen1}
-    width={150}
-    height={45}
-    alt="image1"/>
-    <Image src={Imagen2}
-    width={330}
-    height={45}
-    alt="image2"/>
+  
      <Image src={Imagen3}
     width={320}
     height={45}
     alt="image3"/>
-        <Image src={Imagen1}
-    width={150}
+     <Image src={Imagen3}
+    width={320}
     height={45}
-    alt="image1"/>
-    <Image src={Imagen2}
-    width={330}
+    alt="image3"/>
+         <Image src={Imagen3}
+    width={320}
     height={45}
-    alt="image2"/>
+    alt="image3"/>
+     <Image src={Imagen3}
+    width={320}
+    height={45}
+    alt="image3"/>
+         <Image src={Imagen3}
+    width={320}
+    height={45}
+    alt="image3"/>
      <Image src={Imagen3}
     width={320}
     height={45}
     alt="image3"/>
   </Marquee>
+  
   
     </>
   )
