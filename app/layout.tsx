@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <link
           rel="icon"
@@ -25,7 +25,7 @@ export default function RootLayout({
           sizes="<generated>"
         />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} w-full h-full`}>
         
         {children}
         </body>
