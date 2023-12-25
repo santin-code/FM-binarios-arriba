@@ -1,13 +1,13 @@
 import Card from "./components/cards/Card"
-import Nodog from "./components/marquee/Nodog"
 import Navbar from "./components/navbar/Navbar"
+import Footer from "./components/footer/Footer"
 
 export default function Home() {
   return (
     <>
-     <Nodog />
      <Navbar />
      <Card />
+     <Footer />
     </>
   )
 }

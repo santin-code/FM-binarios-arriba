@@ -14,6 +14,13 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
 
+      transitionProperty: {
+        'height': 'height',
+      },
+      transitionDuration: {
+        '100': '100ms',
+      },
+
         
 
     screens: {
