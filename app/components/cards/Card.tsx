@@ -12,7 +12,7 @@ export default function Card() {
     },
     {
       id: 2,
-      href: "https://drive.google.com/drive/folders/1yNGk4SquhtEIjf6pK-_uzfCnKQZ5lAZ1?usp=sharing",
+      href: "https://google.com",
       src: Home1,
       alt: "imagen de price shoes",
     },
