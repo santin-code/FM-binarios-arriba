@@ -121,13 +121,13 @@ export default function PriceShoes() {
     },
     {
       id: 18,
-      href: "https://google.com",
+      href: "https://www.priceshoes.com/catalogos/1135310?section=B%C3%A1sicos",
       image: Todo_hasta_299,
       alt: "todo en uno hasta 299",
     },
     {
       id: 19,
-      href: "https://google.com",
+      href: "https://www.priceshoes.com/catalogos/1135314?section=B%C3%A1sicos",
       image: Todo_hasta_499,
       alt: "todo en uno hasta 499",
     },{
@@ -138,19 +138,21 @@ export default function PriceShoes() {
     },
   ];
   return (
-    <div className="w-11/12 md:w-8/12 flex text-white flex-wrap mx-auto my-auto">
+   <div className="mb-16 md:mb-20">
+     <div className="w-11/12 md:w-8/12  flex items-center justify-evenly text-white flex-wrap mx-auto my-auto">
       {" "}
       {catalogos.map((catalogo) => {
         return (
-          <Link key={catalogo.id} href={catalogo.href} className="w-44 mt-4 rounded-1 flex items-center justify-center" >
+          <Link key={catalogo.id} href={catalogo.href} className="w-40    mt-4 rounded-1 flex items-center justify-center md:w-1/3 " >
             <Image
               src={catalogo.image}
               alt={catalogo.alt}
-              className="w-11/12"
+              className="w-11/12 h-52 md:h-96"
             />
           </Link>
         );
       })}
     </div>
+   </div>
   );
 }
