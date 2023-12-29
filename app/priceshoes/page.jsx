@@ -12,8 +12,6 @@ import Man from "@/public/catalogos/man.jpg";
 import Kids from "@/public/catalogos/kids.jpg";
 import Jeans from "@/public/catalogos/jeans.jpg";
 import Accesorios from "@/public/catalogos/accesorios.jpg";
-import Navidad from "@/public/catalogos/navidad.jpg";
-import Navidad2 from "@/public/catalogos/navidad2.jpg";
 import Lenceria from "@/public/catalogos/lenceria.jpg";
 import Escolar from "@/public/catalogos/escolar.jpg";
 import Todo_en_uno from "@/public/catalogos/todo_en_uno.jpg";
@@ -143,7 +141,7 @@ export default function PriceShoes() {
       {" "}
       {catalogos.map((catalogo) => {
         return (
-          <Link key={catalogo.id} href={catalogo.href} className="w-40    mt-4 rounded-1 flex items-center justify-center md:w-1/3 " >
+          <Link key={catalogo.id} href={catalogo.href} className="w-44    mt-4 rounded-1 flex items-center justify-center  md:w-1/3 " >
             <Image
               src={catalogo.image}
               alt={catalogo.alt}

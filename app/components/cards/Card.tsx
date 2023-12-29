@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Home1 from "./home1.jpg";
+import L from '@/public/perifericos/henkel___df7ce3c57af66967e84946ad5d8f997b.png'
 
 export default function Card() {
   const cardImages = [
@@ -12,7 +13,7 @@ export default function Card() {
     },
     {
       id: 2,
-      href: "https://google.com",
+      href: '/perifericos',
       src: Home1,
       alt: "imagen de price shoes",
     },
