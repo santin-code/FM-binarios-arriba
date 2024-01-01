@@ -137,11 +137,11 @@ export default function PriceShoes() {
   ];
   return (
    <div className="mb-16 md:mb-20">
-     <div className="w-11/12 md:w-8/12  flex items-center justify-evenly text-white flex-wrap mx-auto my-auto">
+     <div className="w-11/12 md:w-8/12 md:h-auto  flex items-center justify-evenly text-white flex-wrap mx-auto my-auto">
       {" "}
       {catalogos.map((catalogo) => {
         return (
-          <Link key={catalogo.id} href={catalogo.href} className="w-44    mt-4 rounded-1 flex items-center justify-center  md:w-1/3 " >
+          <Link key={catalogo.id} href={catalogo.href} className="w-44    mt-4 rounded-1 flex items-center justify-center  md:w-1/4 " >
             <Image
               src={catalogo.image}
               alt={catalogo.alt}
