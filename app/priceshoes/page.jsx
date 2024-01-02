@@ -145,7 +145,7 @@ export default function PriceShoes() {
             <Image
               src={catalogo.image}
               alt={catalogo.alt}
-              className="w-11/12 h-52 md:h-96"
+              className="w-11/12 h-52 md:h-80  lg:xl-96"
             />
           </Link>
         );
