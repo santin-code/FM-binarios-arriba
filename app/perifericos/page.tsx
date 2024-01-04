@@ -1,4 +1,4 @@
-import Example1 from "@/public/perifericos/203453-500-auto.webp";
+import Example1 from "@/public/imaCards/papeleria/211626-500-auto.webp";
 import Image from "next/image";
 import {lobster} from '@/app/ui/fonts'
 
