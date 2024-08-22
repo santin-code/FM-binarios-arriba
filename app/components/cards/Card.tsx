@@ -43,10 +43,10 @@ export default function Card() {
           <Link
             key={image.id}
             href={image.href}
-            className="w-40 h-64 m-2 overflow-hidden flex items-center justify-center w-5/12 md:w-1/6   border-2 border-solid border-sky-700 rounded   md:w-1/4 md:m-4 hover:bg-black transform hover:scale-105 transition duration-100 ease-in-out "
+            className=" transform hover:scale-105 transition duration-100 ease-in-out "
           >
-            <Image  src={image.src} alt={image.alt} className="h-56 absolute bottom-0 pointer-events-none " />
-            <p className=" w-full absolute top-0  text-white flex items-center justify-center text-xl font-black bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">{image.title}</p>
+            <Image  src={image.src} alt={image.alt} className=" w-[200px] h-[300px] mr-[5px] rounded mt-[5px] pointer-events-none " />
+            {/* <p className=" w-full absolute top-0  text-white flex items-center justify-center text-xl font-black bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">{image.title}</p> */}
           </Link>
         );
       })}
