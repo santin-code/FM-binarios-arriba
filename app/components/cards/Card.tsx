@@ -40,7 +40,7 @@ export default function Card() {
 
   return (
     <div className="w-full flex flex-col items-center justify-center">
-      <div className=" flex flex-wrap w-full mt-1  items-center justify-center mx-auto my-auto   md:mt-14 md:w-11/12">
+      <div className=" flex flex-wrap w-full mt-10  items-center justify-center mx-auto my-auto   md:mt-14 md:w-11/12">
         {cardIcon.map((icon) => {
           return (
             <Link
